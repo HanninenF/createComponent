@@ -1,7 +1,7 @@
 export const createMyButton = () => {
   const blueButton = document.createElement("button");
   blueButton.classList.add("myButton");
-  blueButton.textContent = "Do Not Push!";
+  blueButton.textContent = "Do Not Press!";
   const myButtonContainer = document.querySelector(
     ".myButtonContainer"
   ) as HTMLButtonElement;
