@@ -1,0 +1,12 @@
+.myButtonContainer {
+  display: flex;
+  justify-content: center;
+  .myButton {
+    background-color: red;
+    border-radius: 100%;
+    width: 700px;
+    height: 600px;
+    color: white;
+    font-size: 100px;
+  }
+}
